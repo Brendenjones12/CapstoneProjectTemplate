@@ -22,7 +22,7 @@ Tudr
 ## **Links**
 
 - [Project description](ProjectDescription.md)
-- [Clubhouse of the project](https://app.clubhouse.io)
+- [Clubhouse of the project](https://app.clubhouse.io/bsucscapstone/project/35/student-engagement-and-retention-tool)
 - [Team meeting minutes](MeetingMinutes/Team)
 - [Client partner meeting minutes](MeetingMinutes/ClientPartner)
 - ... any other documents/links you see need
