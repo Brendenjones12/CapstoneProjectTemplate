@@ -2,7 +2,7 @@
 
 ## **Summary**
 
-
+A dashboard for students to use to get organized with school and can even text a chat bot with.
 
 ## **Team Members**
 
