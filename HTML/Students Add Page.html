@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Student Login Web Form</title>
+<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+<script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+        apiKey: "AIzaSyBLvnJy7ccGLMYndH3p8AFkhV5N64kcfjE",
+        authDomain: "bsu-capstone-student-retention.firebaseapp.com",
+        databaseURL: "https://bsu-capstone-student-retention.firebaseio.com",
+        projectId: "bsu-capstone-student-retention",
+        storageBucket: "bsu-capstone-student-retention.appspot.com",
+        messagingSenderId: "621069870851"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+
+    </head>
+<body>
+ <table>
+  <tr>
+   <td>Id: </td>
+   <td><input type="text" name="id" id="user_id" /></td>
+  </tr>
+  <tr>
+   <td>User Name: </td>
+   <td><input type="text" name="user_name" id="user_name" /></td>
+  </tr>
+  <tr>
+   <td colspan="2">
+    <input type="button" value="Save" onclick="save_user();" />
+    <input type="button" value="Update" onclick="update_user();" />
+    <input type="button" value="Delete" onclick="delete_user();" />
+   </td>
+  </tr>
+    </table>
+ 
+ <script>
+ 
+  var tblUsers = document.getElementById('tbl_users_list');
+  var databaseRef = firebase.database().ref('Students/');
+  var rowIndex = 1;
+  
+  databaseRef.once('value', function(snapshot) {
+    snapshot.forEach(function(childSnapshot) {
+   var childKey = childSnapshot.key;
+   var childData = childSnapshot.val();
+   
+   rowIndex = rowIndex + 1;
+    });
+  });
+   
+  function save_user(){
+   var user_name = document.getElementById('user_name').value;
+   var user_id = document.getElementById('user_id').value;
+  
+   //var uid = firebase.database().ref().child('users').push().key;
+   
+   var data = {
+    user_id: user_id,
+    user_name: user_name
+   }
+   
+   var updates = {};
+   updates['/Students/' + user_id] = data;
+   firebase.database().ref().update(updates);
+   
+   alert('The Student was created successfully!');
+   reload_page();
+  }
+  
+  function update_user(){
+   var user_name = document.getElementById('user_name').value;
+   var user_id = document.getElementById('user_id').value;
+
+   var data = {
+    user_id: user_id,
+    user_name: user_name
+   }
+   
+   /*var updates = {};
+   updates['/users/' + user_id] = data;
+   firebase.database().ref().update(updates);
+   
+   alert('The Student is updated successfully!');
+   
+   reload_page();
+  }*/
+  
+  function delete_user(){
+   var user_id = document.getElementById('user_id').value;
+  
+   firebase.database().ref().child('/users/' + user_id).remove();
+   alert('The Student was deleted successfully!');
+   reload_page();
+  }
+  
+  function reload_page(){
+   window.location.reload();
+  }
+  
+ </script>
+ 
+</body>
+</html>
