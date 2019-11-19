@@ -1,6 +1,6 @@
-Student Engagement and Retention Tool
+##Student Engagement and Retention Tool
 
-Summary
+#Summary
 
 A dashboard for students to use to get organized with school and can even text a chat bot with.
 
@@ -11,7 +11,7 @@ Alex Northouse
 Isaac Mckinney
 Client Partner Information
 
-Company:
+#Company:
 
 Tudr
 
