@@ -4,14 +4,10 @@
 MySQL, PHP, ChatBot(Using JS), HTML, CSS
 
 ## IDE
-NotePad++
-PHP myAdmin
+NotePad++, PHPmyAdmin
 
 ## Folder Structure
-We have a HTML Folder that has our webpage stuff in it andthe PHP is built into the HTML
-We also have a DialogFlow folder with the chatbot code in it
+There's a HTML container folder that holds a PHP folder for all the PHP files and a DialogueFlow folder for a copy of the chatbot's configuration code.
 
 ## Important Files
-we have a connect.php file that contains login info for the database
-
-
+There's a connect.php file that contains login info for the database that all the php files use.

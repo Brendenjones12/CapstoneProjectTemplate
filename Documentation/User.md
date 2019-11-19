@@ -1,10 +1,15 @@
 # User Manual
 
-1. Start by logging in with your given loggin information
-2. If you are a student it brings you to the student home page
-  On the student home page you have the chatbot section and the add class section
+## Login Page
+1. Start by inputting your username and password in the appropriate feilds.
+2. Then click the appropriate login button for your designation (you're either a student or a professor)
+3. If you don't have a created login key, hit the register user button to go to the register page.
 
-3. If you are a Professor it brings you to the Professor Home Page
-  On this page you have the Create Course section which allows you to create a course and the Add data which adds questions and answer that adds it to the chat bot database
+## Register Page
+1. Example to be updated later
+
+## Student Page
+1. Example to be updated later
   
-  
+## Professor Page
+1. Example to be updated later
