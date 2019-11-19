@@ -49,9 +49,13 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
   
   // Handles the content of the mysql query, using parameters given by the user
   function queryDatabase (connection) {
+	
+	const class_id = agent.parameters.ClassID;
+	const class_question = agent.parameters.ClassQuestion;
+	
   	return new Promise((resolve, reject) => {
 		// This query finds the answer to a question matching the user given value for a course with matching id
-      	var sql1 = 'SELECT quesAns FROM ClassQuestions WHERE classID = ' + agent.parameters.ClassID + ' AND quesText = "' + agent.parameters.ClassQuestion + '"';
+      	var sql1 = 'SELECT quesAns FROM ClassQuestions WHERE classID = ' + class_id + ' AND quesText = "' + class_question + '"';
       	console.log(sql1);
       	connection.query(sql1, (error, results) => {
 			// results will either be undefined if there is no existing question that meets the needs of the query
@@ -61,14 +65,14 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     });
   }
   
-  // 
+  // calls on methods to connect to a mysql database and to submit a query base on user responses
+  // the returned response is then sent to the user by the chatbot
   function handleReadFromMySQL (agent) {
-    const class_id = agent.parameters.ClassID;
-    const class_question = agent.parameters.ClassQuestion;
   	return connectToDatabase().then(connection => {
     	return queryDatabase(connection).then(result => {
         	console.log(result);
           	result.map(user => {
+				// creates a message that is sent to the user by the chatbot
           		agent.add(user.quesAns);
             });
           	connection.end();
