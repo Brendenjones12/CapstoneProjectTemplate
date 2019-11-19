@@ -1,28 +1,10 @@
-# Student Engagement and Retention Tool
+# User Manual
 
-## User Manual
+1. Start by logging in with your given loggin information
+2. If you are a student it brings you to the student home page
+  On the student home page you have the chatbot section and the add class section
 
-A dashboard for students to use to get organized with school and can even text a chat bot with.
-
-Team Members
-
-Brenden Jones
-Alex Northouse
-Isaac Mckinney
-Client Partner Information
-
-## Company:
-
-Tudr
-
-People:
-
-Wesley Crouch
-Links
-
-Project description
-Clubhouse of the project
-Team meeting minutes
-Client partner meeting minutes
-... any other documents/links you see need
-Code Repositories
+3. If you are a Professor it brings you to the Professor Home Page
+  On this page you have the Create Course section which allows you to create a course and the Add data which adds questions and answer that adds it to the chat bot database
+  
+  
