@@ -2,7 +2,6 @@
 
 > ### node.js mysql config ####
 ##### Location: /Dialogflow/index.js, line 33
-
 This block of code handles the configuration of the connection to the mysql database. The 'connection' const contains the needed information for a secure login to the database, and it includes information like the server's hostname, username for login, password for login, and the database name.
 
 ```javascript
@@ -92,3 +91,49 @@ function handleReadFromMySQL (agent) {
 ```
 
 
+
+> #### Inserting a Class Entity into the Database ####
+##### Location: /professor-createCourse.php, line 44
+This if statement is used at the tailend of the POST method in the createCourse php file. It is used to first create a MySQL query to insert the given class values into the server, before then collected the automatically generated class ID from said created class entity. It then uses that to also update the "ClassProfessor" table to include a relationship of the professor (using the currently logged in professor's unique id) and the newly created class (using said class's just created class id). Finally, it just clears all the fields so that the process can be done again easily.
+
+```php
+if (empty($error)) {
+	// This creates the class in the class table
+	$query = "INSERT INTO Class VALUES (NULL, '$classNum', '$className', $classSec)";
+	$sql = $conn->prepare($query);
+	$sql->execute();
+	
+	
+	// this then collects the classID from Class
+	$query = "SELECT id FROM Class WHERE courseNum='$classNum'";
+	$sql = $conn->prepare($query);
+	$sql->execute();
+	$class = $sql->fetchAll();
+	$classID = $class[0]['id'];
+	
+	
+	// then, it adds the appropriate relationship entity into the database
+	$query = "INSERT INTO ClassProfessor VALUES($classID, $profID)";
+	$sql = $conn->prepare($query);
+	$sql->execute();
+	
+	// finally, there's a success statement given and all the values are cleared
+	$success[] = "Class successfully created! Give your student the class number '$classID' so they can sign up for it!";
+	$classNum  = "";
+	$className = "";
+	$classSec  = "";
+}
+```
+
+
+
+> #### Requesting Specific Classes from Database ####
+##### Location: /professor-addData.php, line 9
+These few lines of code include a MySQL query saved as a PHP variable so that PHP can use some built in functions to poll a server for the information it wants. The MySQL query is specifically asking for classes' ids and names from them "Class" table that match the class ids from the "ClassProfessor" table and the professor id from the logged in professor.
+
+```php
+$query = "SELECT Class.id, Class.name FROM Class, ClassProfessor WHERE Class.id = ClassProfessor.classID AND ClassProfessor.profID = $profID ORDER BY Class.id";
+$sql = $conn->prepare($query);
+$sql->execute();
+$classList = $sql->fetchAll();
+```
