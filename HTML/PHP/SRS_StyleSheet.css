@@ -19,6 +19,16 @@ label {
   color: white;
 }
 
+input {
+  padding: 5px;
+  width: 100%;
+}
+
+textarea {
+  padding: 5px;
+  width: 100%;
+}
+
 button {
   font-size: 1.25em;
   margin: 4px 0px 0px;
@@ -26,7 +36,11 @@ button {
 }
 
 .error {
-  color: LightCoral;
+  color: Tomato;
+}
+
+.success {
+  color: YellowGreen;
 }
 
 .horizontalsection {
@@ -39,6 +53,7 @@ button {
   background-image: linear-gradient(to top left, #45567D, #42659f);
   border: 5px solid Black;
   border-radius: 25px;
+  min-width: 400px;
   width: 25%;
   
   display: flex;
@@ -63,10 +78,6 @@ button {
   font-size: 1.1em;
 }
 
-.login input {
-  padding: 5px;
-  width: 100%;
-}
 
 .homepagesection {
   display: flex;
@@ -84,7 +95,7 @@ button {
   background-image: linear-gradient(to top left, #45567D, #42659f);
   border: 5px solid LightGray;
   border-radius: 25px;
-  height: 65vh;
+  height: 60vh;
   width: 40vh;
   padding: 5px 25px;
 }
@@ -93,7 +104,7 @@ button {
     background-image: linear-gradient(to top left, #45567D, #42659f);
     border: 5px solid LightGray;
     border-radius: 25px;
-    height: 65vh;
+    height: 60vh;
     width: 35vh;
     padding: 5px 25px;
 }

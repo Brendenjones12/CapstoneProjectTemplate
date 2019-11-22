@@ -13,5 +13,6 @@
   <body>
 	<h2>View Data</h2>
 	<p>View Data worked! :D</p>
+	
   </body>
 </html>

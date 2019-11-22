@@ -8,6 +8,10 @@
 		echo "<script type='text/javascript'>alert('$message');</script>";
 		header('Location: login-page.php');
 	}
+	
+	// try naming the posts
+	// look into ajax
+	
 ?>
 <html>
   <head>
@@ -19,14 +23,11 @@
 		<h1>Student Retention Service</h1>
 		<h1>Professor Homepage</h1>
 		<section class="appsection">
-			<section class="professorapp">
-				<?php include_once('professor-addCourse.php'); ?>
+			<section class="studentapp">
+				<?php include_once('professor-createCourse.php'); ?>
 			</section>
-			<section class="professorapp">
+			<section class="studentapp">
 				<?php include_once('professor-addData.php'); ?>
-			</section>
-			<section class="professorapp">
-				<?php include_once('professor-viewData.php'); ?>
 			</section>
 		</section>
 	</section>

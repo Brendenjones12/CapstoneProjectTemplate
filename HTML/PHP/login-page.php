@@ -75,16 +75,21 @@
 				<input type="password" name="password" required />
 			</section>
 			<br><br>
+			
 			<section class="horizontalsection">
 				<button type="submit" name="studentLogin" value="✓">Student Login</button>
 				<button type="submit" name="professorLogin" value="✓">Professor Login</button>
 			</section>
-			<br>
-			<br>
+			<br><br>
+			
 			<span class="error"><?php if(!empty($error)) foreach($error as $e) echo $e . "<br>"; ?></span>
 		</form>
+		
 		<span class="error"><?php if(!empty($error)) foreach($error as $e) echo $e . "<br>"; ?></span>
 		<br><br>
+		<div style="text-align: center;">
+			<button style="position:relative" onclick="window.location.href = 'register-page.php';">Register a New User</button>
+		</div>
 	</section>
   </body>
 </html>

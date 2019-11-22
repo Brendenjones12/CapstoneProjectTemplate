@@ -61,14 +61,17 @@
 			$sql = $conn->prepare($query);
 			$sql->execute();
 			
-			// alerts the user they did it right before sending them to the login page
+			$success[] = "$tableName was successfully updated with your info! Please return to the login page to now login.";
+			
+			// I would like to implement the following code, but the php doesn't render the javascript before routing you to the login-page.
+			/* 	
 			$message = "Congrats! A $tableName was created! Sending you back to the login page to login!";
 			echo "<script type='text/javascript'>alert('$message');</script>";
 			header('Location: login-page.php');
+			*/
 		}
 	}
 ?>
-
 
 
 <html>
@@ -77,31 +80,43 @@
 	<link rel="stylesheet" href="SRS_StyleSheet.css">
   </head>
   <body>
-  <body>
 	<section class="login">
 		<h1>Student Retention Service</h1>
 		<h1>Register</h1>
+		
 		<form action="" method="post">
 			<section class="fields">
 				<label for="username">Username: </label>
-				<input type="text" name="username" required value="<?php if(!empty($_POST['username'])){ echo $username; } else { echo ''; } ?>"/><br><br>
+				<input type="text" name="username" required value="<?php if(!empty($_POST['username'])){ echo $username; } else { echo ''; } ?>"/><br>
+				
 				<label for="password">Password: </label>
-				<input type="password" name="password" required /><br><br>
+				<input type="password" name="password" required /><br>
+				
 				<label for="password2">Re-enter Password: </label>
-				<input type="password" name="password2" required /><br><br>
+				<input type="password" name="password2" required />
 				<br><br>
+				
 				<label for="fname">First Name: </label>
-				<input type="text" name="fname" required /><br><br>
+				<input type="text" name="fname" required value="<?php if(!empty($_POST['fname'])){ echo $fName; } else { echo ''; } ?>"/><br>
+				
 				<label for="lname">Last Name: </label>
-				<input type="text" name="lname" required /><br><br>
+				<input type="text" name="lname" required value="<?php if(!empty($_POST['lname'])){ echo $lName; } else { echo ''; } ?>"/><br>
 			</section>
+			
 			<span class="error"><?php if(!empty($error)) foreach($error as $e) echo $e . "<br>"; ?></span>
+			<span class="success"><?php if(!empty($success)) foreach($success as $s) echo $s . "<br>"; ?></span>
 			<br><br>
+			
 			<section class="horizontalsection">
 				<button type="submit" name="createStudent" value="✓">Create Student</button>
 				<button type="submit" name="createProfessor" value="✓">Create Professor</button>
 			</section>
 		</form>
+		
+		<br>
+		<div style="text-align: center;">
+			<button style="position:relative" onclick="window.location.href = 'login-page.php';">Return to Login page</button>
+		</div>
 	</section>
   </body>
 </html>
