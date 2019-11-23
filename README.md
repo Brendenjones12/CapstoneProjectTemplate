@@ -29,5 +29,5 @@ Tudr
 
 ## **Code Repositories**
 
-
+- [server code repo](https://github.com/Illuminubby/student-retention-webapp)
 
