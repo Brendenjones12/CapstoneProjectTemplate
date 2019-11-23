@@ -30,4 +30,4 @@ Tudr
 ## **Code Repositories**
 
 - [Server Code Repository](https://github.com/Illuminubby/student-retention-webapp)
-- - [release 1](https://github.com/Illuminubby/student-retention-webapp/releases/tag/Iteration1)
+  - [release 1](https://github.com/Illuminubby/student-retention-webapp/releases/tag/Iteration1)
