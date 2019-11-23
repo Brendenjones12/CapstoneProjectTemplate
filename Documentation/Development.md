@@ -4,7 +4,9 @@
 MySQL, PHP, ChatBot(Using JS), HTML, CSS
 
 ## IDE
-NotePad++, PHPmyAdmin
+NotePad++, PHPmyAdmin, Inline Editor on Dialogflow Console
+
+Contact Isaac McKinney (idmckinney@bsu.edu for access to chatbot)
 
 ## Folder Structure
 There's a HTML container folder that holds a PHP folder for all the PHP files and a DialogueFlow folder for a copy of the chatbot's configuration code.

@@ -16,7 +16,9 @@
 ## Student Page
 ### Chatbot
 1. Interact with the chatbot by typing in the text box.
-2. Use the enter key to send it a message
+2. To ask a question about a class, simply type and enter 'I have a question about a class'
+3. The chatbot will reply asking for the relevant information about the class and the question you would like to ask
+4. After entering the Class ID number and the question, the chatbot will try to retrieve an answer. If the question is not on record, the chatbot return [empty response].
 ### Add a Course
 1. Input the number of the new course you'd like to add to your account into the "Course Number" field.
 2. Hit the "Submit" button to submit the data. If your selected class exists, and if you're not already signed up for it, it'll tell you it was successful. Otherwise, it will let you know of any errors.
