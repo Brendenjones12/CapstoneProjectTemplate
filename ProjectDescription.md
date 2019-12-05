@@ -1,19 +1,17 @@
 # Project Description
 
 ## Summary
-We will be making a dashboard for students to use to get organized with school and can even text a chat bot with.
-
+We will be making a dashboard for students and professors to use to get organized with school and interact with a chatbot.
 
 ## High-level Features
-
--Every week he will be giving us assignments/tasks for each of us too accomplish.
+- A chatbot that students can interact with to get information on their classes and their professors
+- Professor can input data for the chatbot to interpret and relay to students
 
 ## Non-Functional Requirements
-
-- A bullet pointed list of non-functional requirements
-- Another one...
+- Hosted remoted
+- Database that's remotely hosted
+- Must use a chatbot that can "learn" or be "taught" new things
 
 ## Constraints
-
-- A bullet pointed list of constraints
-- Another one...
+- We have to use a scalable chatbot
+- We have to use a scalable database
