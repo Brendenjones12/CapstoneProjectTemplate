@@ -29,6 +29,11 @@
 2. Input the name of the new course you'd like to use for your new course into the "New Course Name" field.
 3. Input the section of the new course you'd like to use for your new course into the "New Course Section" field.
 4. Hit the "Submit New Class" button to submit the data. If your new class doesn't conflict with any existing ones, it'll tell you it was successful. Otherwise, it will let you know of any errors.
+### Add Question
+1. Select which course you are adding a question to from the drop down menu
+2. type in a FAQ
+3. type in the answer
+4. click create question button
 ### Add Data
 1. Click on the drop down below "Add Data" to select the class name of the class you'd like to add the new question to.
 2. Input the question text of the new question you'd like to add to the selected course in the "Question" field.
