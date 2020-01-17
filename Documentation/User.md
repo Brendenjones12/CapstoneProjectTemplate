@@ -2,7 +2,7 @@
 
 ## Login Page
 1. Start by inputting your username and password in the appropriate feilds.
-2. Then click the appropriate login button for your designation (you're either a student or a professor)
+2. Then click the login button for your designation.
 3. If you don't have a created login key, hit the register user button to go to the register page.
 
 ## Register Page
@@ -34,7 +34,10 @@
 2. Input the question text of the new question you'd like to add to the selected course in the "Question" field.
 2. Input the answer text of the new question you'd like to add to the selected course in the "Answer" field.
 4. Hit the "Submit New Question" button to submit the data. If your new question doesn't conflict with any existing ones, it'll tell you it was successful. Otherwise, it will let you know of any errors.
-
+### Add Syllabus
+1. Select which curse you are adding a syllabus to from the drop down menu
+2. Add input from syllabus to all the appropriate fields
+3. click the create syllabus button
 ## Logging Out
 1. On the bottom of the Student Homepage or Professor Homepage is a "Logout" button.
 2. Hit this button to logout and be taken back to the login page.
