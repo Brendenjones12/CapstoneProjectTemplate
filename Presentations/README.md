@@ -7,7 +7,7 @@ Any presentation you made will be put here right after the presentation. The fol
 
 - [Second Iteration status and Planning Presentation](https://docs.google.com/presentation/d/11uOZ39zXk4b7g6o0lwViTC8PDRt2lV7gMdwq7g9FiMI/edit#slide=id.g7a8f196d5a_0_689)
 
-- [Second Iteration  Presentation](https://docs.google.com/presentation/d/1aOtRp4bNe4pXUNwUvVxtKQOF4tsbvIcKP_XqGjC9jJI/edit?usp=sharing)
+- [Second Iteration  Presentation](https://docs.google.com/presentation/d/1TNqI_GSD1x2klRI0KIgwkymp26RlDWLgA97IV0RpECk/edit#slide=id.g7c81b0ae8e_1_11)
  
 - Second Iteration Presentation
 - Third Iteration Presentation
