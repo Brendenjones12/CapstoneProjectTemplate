@@ -4,3 +4,8 @@ Other than just running through the website and looking at both the professor an
 2. When it asks what the class ID is type "1"
 3. Then type either "How do I create good software?"
 4. it shoud give you an answer
+
+
+## Example Login info
+Prof: exampleProf Password: password
+Student: bobjoe Password: example
