@@ -1,5 +1,7 @@
 # User Manual
-
+## Example Login info
+Prof: exampleProf Password: password
+Student: bobjoe Password: example
 ## Login Page
 1. Start by inputting your username and password in the appropriate feilds.
 2. Then click the login button for your designation.
