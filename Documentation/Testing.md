@@ -10,6 +10,7 @@ Other than just running through the website and looking at both the professor an
 
 
 
-## Example Login info
-Prof: exampleProf Password: password
-Student: bobjoe Password: example
+## How to Replicate the Dev Environment:
+1) Drop the php and css files into the public_html folder of a server that can run modern php code.
+2) Update the "system-connect.php" file with the appropriate login information for your MySQL server.
+3) Check the auxilary file for database table setup guide.
