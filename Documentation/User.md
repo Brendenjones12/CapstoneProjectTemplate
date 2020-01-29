@@ -10,7 +10,7 @@ Student: bobjoe Password: example
 3. If you don't have a created login key, hit the register user button to go to the register page.
 
 ## Register Page
-![This is the login page! :D](https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/Chatbot.png "Login Page")
+![This is the login page! :D](https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/RegisterUser.png "Login Page")
 
 1. To create a new user, you'll need to fill out the form on this page.
 2. Input your desired username into the username field
