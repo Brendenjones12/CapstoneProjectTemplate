@@ -19,7 +19,7 @@ Student: bobjoe Password: example
 ### Chatbot
 1. Interact with the chatbot by typing in the text box.
 2. To ask a question about a class, simply type and enter the class name and what you are looking for. Ex(CS120 Office Hours)
-3. The chatbot will reply asking for the relevant information about the class and the question you would like to ask
+3. The chatbot will reply asking for the relevant information about the class and the question you would like to ask. Enter Class ID of the class.
 4. After entering the Class ID number and the question, the chatbot will try to retrieve an answer. If the question is not on record, the chatbot will return [empty response].
 ### Add a Course
 1. Input the number of the new course you'd like to add to your account into the "Course Number" field.
