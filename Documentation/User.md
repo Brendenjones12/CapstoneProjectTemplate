@@ -3,7 +3,7 @@
 Prof: exampleProf Password: password
 Student: bobjoe Password: example
 ## [Login Page]
-![alt text](https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/LoginPage.png "Login Page")
+![This is the login page! :D](https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/LoginPage.png "Login Page")
 
 1. Start by inputting your username and password in the appropriate feilds.
 2. Then click the login button for your designation.
