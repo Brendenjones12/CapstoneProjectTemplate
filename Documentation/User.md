@@ -55,7 +55,7 @@ Student: bobjoe Password: example
 2. Input the question text of the new question you'd like to add to the selected course in the "Question" field.
 2. Input the answer text of the new question you'd like to add to the selected course in the "Answer" field.
 4. Hit the "Submit New Question" button to submit the data. If your new question doesn't conflict with any existing ones, it'll tell you it was successful. Otherwise, it will let you know of any errors.
-### Add Syllabus
+### Create Syllabus
 ![This is the login page! :D](https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/ProfAddSyllabus.png "Login Page")
 
 1. Select which curse you are adding a syllabus to from the drop down menu
