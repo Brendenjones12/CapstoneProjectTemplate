@@ -2,7 +2,7 @@
 ## Example Login info
 Prof: exampleProf Password: password
 Student: bobjoe Password: example
-## Login Page
+## [Login Page] (LoginPage.png)
 1. Start by inputting your username and password in the appropriate feilds.
 2. Then click the login button for your designation.
 3. If you don't have a created login key, hit the register user button to go to the register page.
