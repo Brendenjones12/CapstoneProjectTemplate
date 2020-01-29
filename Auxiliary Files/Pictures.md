@@ -1,1 +1,1 @@
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "ProfCreateCourse.png")
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/ProfCreateCourse.png "ProfCreateCourse.png")
