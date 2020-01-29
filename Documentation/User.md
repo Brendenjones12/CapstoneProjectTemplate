@@ -28,7 +28,7 @@ Student: bobjoe Password: example
 3. The chatbot will reply asking for the relevant information about the class and the question you would like to ask. Enter Class ID of the class.
 4. After entering the Class ID number and the question, the chatbot will try to retrieve an answer. If the question is not on record, the chatbot will return [empty response].
 ### Add a Class
-![This is the login page! :D](https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/Add Class.png "Login Page")
+![This is the login page! :D](https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/AddClass.png "Login Page")
 
 1. Input the number of the new course you'd like to add to your account into the "Course Number" field.
 2. Hit the "Submit" button to submit the data. If your selected class exists, and if you're not already signed up for it, it'll tell you it was successful. Otherwise, it will let you know of any errors.
