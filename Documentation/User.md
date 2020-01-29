@@ -3,7 +3,8 @@
 Prof: exampleProf Password: password
 Student: bobjoe Password: example
 ## [Login Page]
-- [Picture] (LoginPage.png)
+[alt text] (https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/LoginPage.png)
+
 1. Start by inputting your username and password in the appropriate feilds.
 2. Then click the login button for your designation.
 3. If you don't have a created login key, hit the register user button to go to the register page.
