@@ -199,7 +199,6 @@ function handleCustomQuestion (agent) {
   let intentMap = new Map();
   intentMap.set('Default Welcome Intent', welcome);
   intentMap.set('Default Fallback Intent', fallback);
-  intentMap.set('question_fallback', handleCustomQuestion);
   intentMap.set('question_start', handleReadFromMySQL);
   intentMap.set('custom_question', handleCustomQuestion);
   agent.handleRequest(intentMap);
