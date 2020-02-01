@@ -1,16 +1,26 @@
 # Deployment
 
-## Server
-For iteration 2, we had the multi-page website hosted on 000webhost.com. You just need to drag and drop all the files in the second repository into the website/server's public_html folder.
+## Type of Server Needed
+Currently, you need an up-to-date Apache server that can run the latest version PHP *and* a MySQL database server.
 
-## File/Folders
-For all of our html files that have php and html, they are all in the same file. The system-connect.php contains the database login and password needed for all the MySQL calls to work.
 
-## Start/Stop
-To start the website, type in studentengagement.000webhostapp.com.
+## Where to put the Files
+Currently, all the files are put into the same folder. 
+- For XAMPP, the files go into a single folder inside the htdocs folder. 
+- For a standard server setup, they all go into the public_html folder.
+
+
+## How to Start and Stop the System
+To start the website, you need to start the server with the files inside it. Then, do the opposite to shut it down by stopping the servers.
+- For XAMPP, it means opening the control panel and launching the Apache and MySQL servers. Then stopping the servers if you wish to close the service.
+
 
 ## Trouble Shoot
-If you run into errors, your best bet will be to look at the server's console or the error log of the program running the php.
+The general advice is to check the error log sent to your browser or the error log on the console.
+- In XAMPP, it will send the error code to your browser's webpage.
 
-## Critical Pieces to Fail
-The most critical piece that could fail would be "connect.php", because it is used by almost all the php pages or the chatbot becuase of the parameters have to be met exactly to ask a question.
+The most vulnerable piece to fail would be the system-connect.php, which as the database conenction settings. 
+
+- Explaining how to troubleshoot if something goes wrong
+- - Where to find the source of errors, if logged.
+- - What are the most critical/vulnerable pieces that can fail?
