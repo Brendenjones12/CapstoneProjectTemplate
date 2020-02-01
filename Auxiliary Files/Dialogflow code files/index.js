@@ -153,21 +153,26 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 			});
 			
 			return enterSyllabusQuery(connection, syllabusIDn).then(result => {
-				
-				result.map(ansr => {
-					//console.log(ansr);
-					if (ansr != undefined) {
-						//console.log(ansr.userQuestionContent);
-						agent.add(ansr[userQuestion]);
-						
-					}
-					else {
-						
-						agent.add("I'm sorry, there is no answer available for your question.");
-						
-					}
-					
-				});
+        
+        if (result != undefined) {
+          result.map(ansr => {
+            //console.log(ansr);
+            if (ansr != undefined) {
+              //console.log(ansr.userQuestionContent);
+              agent.add(ansr[userQuestion]);
+              
+            }
+            else {
+              
+              agent.add("I'm sorry, there is no answer available for your question.");
+              
+            }
+            
+          });
+        }
+        else {
+          agent.add("I'm sorry, there is no answer available for your question. Try again, or type \"I have a question about " + String(className) +  "\"");
+        }
 				
 				connection.end();
 				
