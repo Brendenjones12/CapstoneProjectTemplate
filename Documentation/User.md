@@ -69,11 +69,11 @@ Student: bobjoe Password: example
 1. On the bottom of the Student Homepage or Professor Homepage is a "Logout" button.
 2. Hit this button to logout and be taken back to the login page.
 
-[Login]:    https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/LoginPage.png	"Login Page"
-[Register]: https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/RegisterUser.png	"Register Page"
-[Stu-Chat]: https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/Chatbot.png	"Student - Chatbot Page"
-[Stu-Add]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/AddClass.png	"Student - Add Course Page"
-[Prof-Cre]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/ProfCreateCourse.png	"Professor - Create Course Page"
-[Prof-Dat]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/ProfAddQuestion.png	"Professor - Add Questions Page"
-[Prof-Vie]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/ProfViewData.png	"Professor - View Data Page"
-[Prof-Syl]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Manual%20Pictures/ProfAddSyllabus.png	"Professor - View Syllabus"
+[Login]:    https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Login.png		"Login Page"
+[Register]: https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Register.png	"Register Page"
+[Stu-Chat]: https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Stu-Chat.png	"Student - Chatbot Page"
+[Stu-Add]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Stu-Add.png	"Student - Add Course Page"
+[Prof-Cre]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Prof-Cre.png	"Professor - Create Course Page"
+[Prof-Dat]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Prof-Dat.png	"Professor - Add Questions Page"
+[Prof-Vie]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Prof-Vie.png	"Professor - View Data Page"
+[Prof-Syl]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Prof-Syl.png	"Professor - View Syllabus"
