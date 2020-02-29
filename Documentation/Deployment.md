@@ -19,4 +19,4 @@ To start the website, you need to start the server with the files inside it. The
 The general advice is to check the error log sent to your browser or the error log on the console.
 - In XAMPP, it will send the error code to your browser's webpage.
 
-The most vulnerable piece to fail would be the system-connect.php, which as the database conenction settings.
+The most vulnerable piece to fail would be the Database_Variables.php, which stores all the database connection variables (username, password, database name, and url/port).

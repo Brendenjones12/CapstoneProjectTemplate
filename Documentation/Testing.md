@@ -1,11 +1,11 @@
 # Testing
-***important note**
-There's currently (iteration 3) no implemented unit testing, but it is scheduled to be addressed with the next iteration (iteration 4).*
-
 
 ## How to Test the Software:
-Currently (iteration 3), the only way to test the software is to run through all the features and regularly check the database server until something goes wrong / breaks.
-
+To test the software in its current form (iteration 4), you need to have the latest version of PHPUnit installed and runnable directly in your command_line (or another similar tool). 
+Currently, you also need to go through the pages being tested and look for a call to a "getEnrolledCourses" method and comment that out before running the unit tests.
 
 ## Do You Need To Replicate The Environment?
-In its current implementation (iteration 3), the only true way to test the software is the "old fashion" way: run it locally, or on an apache server, until something errors out or breaks.
+- XAMPP
+  - Needed to run the apache server and the mysql server.
+- PHPUnit
+  - Needed to run the phpunit tests.
