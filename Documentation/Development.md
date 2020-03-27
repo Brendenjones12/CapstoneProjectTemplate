@@ -1,6 +1,5 @@
 # Development
 
-
 ## Tech Aspects of the Software
 These are the technologies used in this software project:
 - MySQL

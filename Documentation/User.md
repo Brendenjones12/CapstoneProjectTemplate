@@ -1,8 +1,4 @@
 # User Manual
-## Example Login info
-Prof: exampleProf Password: password
-Student: bobjoe Password: example
-
 
 ## Login Page
 ![Login Page][Login]
@@ -60,9 +56,11 @@ Student: bobjoe Password: example
 
 ### Create Syllabus
 ![Create Syllabus][Prof-Syl]
-1. Select which curse you are adding a syllabus to from the drop down menu
-2. Add input from syllabus to all the appropriate fields
-3. click the create syllabus button
+1. Select which course you are adding a syllabus to from the drop down menu
+2. From here, one of three options become available:
+  - If no syllabus exists for the selected course, you can fill out the fields and submit them to create a new syllabus for that course.
+  - If a syllabus already exists, you can change the fields and then hit the "update" button to submit your changes to the syllabus.
+  - If a syllabus already exists, you can hit the delete button to delete the syllabus and create a new one.
 
 
 ## Logging Out
