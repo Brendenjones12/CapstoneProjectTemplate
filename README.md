@@ -13,7 +13,7 @@ A dashboard for students to use to get organized with school and can even text a
 ## **Client Partner Information**
 
 ### *Company:*
-Tudr
+studytable
 
 ### *People:*
 - Wesley Crouch
