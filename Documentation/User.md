@@ -35,17 +35,21 @@
 
 
 ## Professor Page
-### Create a Course
 ![Create Course][Prof-Cre]
+
+### Create a Course
 1. Input the number of the new course you'd like to use for your new course into the "New Course Number" field.
 2. Input the name of the new course you'd like to use for your new course into the "New Course Name" field.
 3. Input the section of the new course you'd like to use for your new course into the "New Course Section" field.
 4. Hit the "Submit New Class" button to submit the data. If your new class doesn't conflict with any existing ones, it'll tell you it was successful. Otherwise, it will let you know of any errors.
 
+### Delete a Course
+1. Select the "Delete Course" button next to the course you wish to delete.
+
 ### Add Question
 ![Add Question][Prof-Dat]
 1. Select which course you are adding a question to from the drop down menu
-2. type in a FAQ
+2. type in the question
 3. type in the answer
 4. click create question button
 
@@ -74,7 +78,7 @@
 
 
 ## Logging Out
-1. On the bottom of the Student Homepage or Professor Homepage is a "Logout" button.
+1. On the bottom of the Student or Professor Dashboards is a "Logout" button.
 2. Hit this button to logout and be taken back to the login page.
 
 [Login]:    https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Login.png		"Login Page"
