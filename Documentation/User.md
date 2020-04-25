@@ -18,18 +18,20 @@
 
 
 ## Student Page
-### Chatbot
-![Student Chatbot][Stu-Chat]
-1. Interact with the chatbot by typing in the text box. Type "Hi" to recieve instructions from the chatbot on how to use it. 
-2. To ask a question about a class, simply type and enter a question about a class and make sure to include the name of the class. (Example: "How do I contact my professor for cs222")
-3. The chatbot will reply asking for the relevant information Enter Class ID of the class.
-4. After entering the Class ID number, the chatbot will try to retrieve an answer. If the question is not on record, the chatbot will let you know.
-5. If you cannot find the answer to your question this way, try typing "I have a question about cs222", substituting the proper class name, which will then prompt you to enter your question and class ID number.
+### View Course Questions
+![View Course Questions][Stu-Chat]
+1. Click on the "Select COurse" button for a course 
+2. The page will then update with all the questions the professor has created for that course.
 
-### Add Course
-![Add Course][Stu-Add]
+### Manage Enrolled Courses
+![Manage Enrolled Courses][Stu-Add]
+
+#### Adding a Course
 1. Input the number of the new course you'd like to add to your account into the "Course Number" field.
 2. Hit the "Submit" button to submit the data. If your selected class exists, and if you're not already signed up for it, it'll tell you it was successful. Otherwise, it will let you know of any errors.
+
+#### Dropping a Course
+1. Select the button of the course you'd like to withdraw from.
 
 
 ## Professor Page
@@ -47,16 +49,24 @@
 3. type in the answer
 4. click create question button
 
-### View Data
-![View Data][Prof-Vie]
-1. Click on the drop down below "Add Data" to select the class name of the class you'd like to add the new question to.
-2. Input the question text of the new question you'd like to add to the selected course in the "Question" field.
-2. Input the answer text of the new question you'd like to add to the selected course in the "Answer" field.
-4. Hit the "Submit New Question" button to submit the data. If your new question doesn't conflict with any existing ones, it'll tell you it was successful. Otherwise, it will let you know of any errors.
+### Manage Questions
+![Manage Questions][Prof-Vie]
+1. Click on the drop down next to "Select Course" to select the class name of the class you'd like to view the questions of.
+2. Click the "View Course's Questions" button to load all the created questions for the selected course.
+3. You can click the "Edit Question" button next to the question you want to edit. It will then let you edit them. You can then click "Submit Question" to submit the edits.
+4. You can click the "Delete Question" button next to the question you want to delete.
 
-### Create Syllabus
-![Create Syllabus][Prof-Syl]
-1. Select which course you are adding a syllabus to from the drop down menu
+### Manage Syllabus
+![Manage Syllabus][Prof-Syl]
+1. Select which course you are wanting to manage a syllabus for from the drop down menu
+2. From here, one of three options become available:
+  - If no syllabus exists for the selected course, you can fill out the fields and submit them to create a new syllabus for that course.
+  - If a syllabus already exists, you can change the fields and then hit the "update" button to submit your changes to the syllabus.
+  - If a syllabus already exists, you can hit the delete button to delete the syllabus and create a new one.
+
+### Manage Student Enrollment
+![Manage Student Enrollment][Prof-Stu]
+1. Select which course you are wanting to manage a syllabus for from the drop down menu
 2. From here, one of three options become available:
   - If no syllabus exists for the selected course, you can fill out the fields and submit them to create a new syllabus for that course.
   - If a syllabus already exists, you can change the fields and then hit the "update" button to submit your changes to the syllabus.
@@ -69,9 +79,10 @@
 
 [Login]:    https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Login.png		"Login Page"
 [Register]: https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Register.png	"Register Page"
-[Stu-Chat]: https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Stu-Chat.png	"Student - Chatbot Page"
-[Stu-Add]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Stu-Add.png	"Student - Add Course Page"
-[Prof-Cre]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Prof-Cre.png	"Professor - Create Course Page"
-[Prof-Dat]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Prof-Dat.png	"Professor - Add Questions Page"
-[Prof-Vie]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Prof-Vie.png	"Professor - View Data Page"
-[Prof-Syl]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Prof-Syl.png	"Professor - View Syllabus"
+[Stu-Chat]: https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Stu-Chat.png	"Student - View Class Questions"
+[Stu-Add]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Stu-Add.png	"Student - Manage Courses"
+[Prof-Cre]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Prof-Cre.png	"Professor - Manage Courses"
+[Prof-Dat]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Prof-Dat.png	"Professor - Add Questions"
+[Prof-Vie]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Prof-Vie.png	"Professor - Manage Questions"
+[Prof-Syl]:	https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Prof-Syl.png	"Professor - Manage Syllabi"
+[Prof-Stu]: https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Auxiliary%20Files/Pictures/User%20Manual/Prof-Stu.png	"Professor - Manage Student Enrollment"
