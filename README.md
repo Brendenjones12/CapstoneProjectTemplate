@@ -2,18 +2,17 @@
 
 ## **Summary**
 
-A dashboard for students to use to get organized with school and can even text a chat bot with.
+A dashboard for students to use to get organized with school.
 
 ## **Team Members**
 
 - Brenden Jones
 - Alex Northouse
-- Isaac Mckinney
 
 ## **Client Partner Information**
 
 ### *Company:*
-Tudr
+StudyTable
 
 ### *People:*
 - Wesley Crouch
@@ -32,3 +31,6 @@ Tudr
   - [Release 1](https://github.com/Illuminubby/student-retention-webapp/releases/tag/Iteration1)
   - [Release 2](https://github.com/Illuminubby/student-retention-webapp/releases/tag/Iteration2)
   - [Release 3](https://github.com/Illuminubby/student-retention-webapp/releases/tag/iteration3)
+  - [Release 4](https://github.com/Illuminubby/student-retention-webapp/releases/tag/iteration4)
+  - [Release 5](https://github.com/Illuminubby/student-retention-webapp/releases/tag/iteration5)
+  - [SignOff](https://github.com/Illuminubby/student-retention-webapp/releases/tag/signOff)

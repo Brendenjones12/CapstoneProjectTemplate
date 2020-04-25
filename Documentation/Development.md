@@ -4,15 +4,15 @@
 These are the technologies used in this software project:
 - MySQL
 - PHP
-- DialogFlow (Google API)
 - HTML / CSS
+- DialogFlow - Google API (Removed)
 
 
 ## Technologies Needed to Replicate the Development Environment
 IDEs used:
-- Visual Studio Community (2019)
-- Visual Studio Mac (2019) 
-- DialogFlow's Inline Editor
+- Visual Studio Community / Mac (2019)
+  - Alternatively, PHPStorm
+- DialogFlow's Inline Editor (Previously)
 
 
 ## How to Replicate the Development
