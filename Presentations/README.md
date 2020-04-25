@@ -1,6 +1,6 @@
 # Presentations
 
-Any presentation you made will be put here right after the presentation. The following is a list of presentations you have to put. You can see the schedule of these in the syllabus on Canvas.
+This is a collection of the presentations we made throughout the year-long project for status updates and iteration presentations.
 
 - [Initial Project Planning Presentation](https://github.com/Brendenjones12/Student-Engagement-and-Retention-Tool/blob/master/Presentations/SERT%20Initial%20Project%20Planning.pdf)
 
