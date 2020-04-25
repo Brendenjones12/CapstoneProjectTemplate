@@ -2,6 +2,7 @@
 
 ## Type of Server Needed
 Currently, you need an up-to-date Apache server that can run both the latest version PHP *and* a MySQL database server.
+Alternatively, you can use XAMPP to emulate both on a local machine.
 
 
 ## Where to put the Files
@@ -22,4 +23,7 @@ Make sure you navigate to the database/DatabaseVariables.php to put in the appro
 The general advice is to check the error log sent to your browser or the error log on the console.
 - In XAMPP, it will send you the immediate error code to the browser, while the XAMPP console gives a more detailed error report.
 
-The most vulnerable piece to fail would be the Database_Variables.php, which stores all the database connection variables (username, password, database name, and url/port).
+The most vulnerable pieces to fail would be:
+- the Database_Variables.php, which stores all the database connection variables (username, password, database name, and url/port),
+- each page creates a session, meaning the ability to store sessions on the machine must be enabled,
+- each page requires many others to work, meaning the files must be kept in the same locations relative to the projcets.
