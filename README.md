@@ -27,10 +27,10 @@ StudyTable
 
 ## **Code Repositories**
 
-- [Server Code Repository](https://github.com/Illuminubby/student-retention-webapp)
-  - [Release 1](https://github.com/Illuminubby/student-retention-webapp/releases/tag/Iteration1)
-  - [Release 2](https://github.com/Illuminubby/student-retention-webapp/releases/tag/Iteration2)
-  - [Release 3](https://github.com/Illuminubby/student-retention-webapp/releases/tag/iteration3)
-  - [Release 4](https://github.com/Illuminubby/student-retention-webapp/releases/tag/iteration4)
-  - [Release 5](https://github.com/Illuminubby/student-retention-webapp/releases/tag/iteration5)
-  - [SignOff](https://github.com/Illuminubby/student-retention-webapp/releases/tag/signOff)
+- [Server Code Repository](https://github.com/AlexandreNorthouse/)
+  - [Release 1](https://github.com/AlexandreNorthouse/student-retention-webapp/releases/tag/Iteration1)
+  - [Release 2](https://github.com/AlexandreNorthouse/student-retention-webapp/releases/tag/Iteration2)
+  - [Release 3](https://github.com/AlexandreNorthouse/student-retention-webapp/releases/tag/iteration3)
+  - [Release 4](https://github.com/AlexandreNorthouse/student-retention-webapp/releases/tag/iteration4)
+  - [Release 5](https://github.com/AlexandreNorthouse/student-retention-webapp/releases/tag/iteration5)
+  - [SignOff](https://github.com/AlexandreNorthouse/student-retention-webapp/releases/tag/signOff)
