@@ -27,7 +27,7 @@ StudyTable
 
 ## **Code Repositories**
 
-- [Server Code Repository](https://github.com/AlexandreNorthouse/)
+- [Server Code Repository](https://github.com/AlexandreNorthouse/student-retention-webapp/)
   - [Release 1](https://github.com/AlexandreNorthouse/student-retention-webapp/releases/tag/Iteration1)
   - [Release 2](https://github.com/AlexandreNorthouse/student-retention-webapp/releases/tag/Iteration2)
   - [Release 3](https://github.com/AlexandreNorthouse/student-retention-webapp/releases/tag/iteration3)
